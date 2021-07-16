@@ -9,9 +9,7 @@ use App\Services\HeroService;
 
 class HeroController extends AbstractController
 {
-    /**
-     * @Route("/hero", name="hero")
-     */
+    
     public function index(HeroService $heroService): Response
     {
         $listeHeros = $heroService->getList();
