@@ -5,7 +5,6 @@ use App\Entity\Hero;
 
 class HeroService
 {
-    /* initialisation du tableau à vide*/
     private $_listeHeros = [];
 
     function __construct()
